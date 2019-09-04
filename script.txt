@@ -1,0 +1,4 @@
+#rgb+depth   semantic depth completion
+python fusenet_train.py --dataroot ./datasets/nyuv2_40.h5 --batch_size 8 --lr 0.005 --num_epochs 200 --use_class True --name experiment 
+#rgb+depth  semantic
+python fusenet_train.py --dataroot ./datasets/nyuv2_40.h5 --batch_size 8 --lr 0.005 --num_epochs 200 --name experiment  
